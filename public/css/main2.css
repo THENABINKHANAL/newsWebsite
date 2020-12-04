@@ -1,0 +1,130 @@
+.logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.container .row .col-md-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px; }
+
+header {
+  background: #800818;
+  color: white; }
+
+#logo {
+  width: 12%;
+  min-width: 80px; }
+
+.dropdown {
+  margin-top: 10px; }
+
+.dropdown-menu {
+  background-color: white;
+  width: 200px;
+  color: #2b0342; }
+
+.dropdown-item {
+  cursor: pointer; }
+
+.dropdown-item:hover {
+  background-color: #f8e3d4; }
+
+.breadcrumb {
+  margin-top: 20px;
+  background-color: white; }
+
+.row {
+  text-align: left; }
+
+.list-group-item {
+  background-color: white;
+  color: #2b0342;
+  border: 1px solid #2b0342; }
+
+.list-group-item:hover {
+  background-color: rgba(245, 200, 200, 0.5); }
+
+.list-group-item.active {
+  background-color: #2b0342;
+  border: none; }
+
+.container .row .col-md-3 .well h6 {
+  margin-top: 20px; }
+
+.fas {
+  color: white; }
+
+.dash-box > h1 .fas {
+  color: #2b0342;
+  background-color: #f6bd95; }
+
+.well {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.progress-bar {
+  background: #2b0342; }
+
+.panel-header {
+  width: 100%;
+  color: white;
+  background-color: #2b0342;
+  border-radius: 3px; }
+  .panel-header h3, .panel-header h5 {
+    padding: 5px; }
+
+.panel-body {
+  display: flex;
+  flex-wrap: wrap; }
+
+.panel {
+  background-color: white;
+  overflow: hidden;
+  border: 3px; }
+
+.dash-box {
+  background-color: #f6bd95;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #2b0342;
+  border-radius: 2px;
+  min-width: 130px;
+  text-align: center; }
+
+.content-panel {
+  margin-top: 20px;
+  background-color: ivory; }
+  .content-panel h3 {
+    margin: 0px; }
+
+.content-table {
+  margin-top: 0px;
+  background-color: white;
+  width: 100%; }
+
+.btn-secondary {
+  background-color: #2b0342; }
+
+.btn-secondary:hover {
+  background-color: #52067e; }
+
+.container {
+  width: 80%;
+  cursor: auto; }
+
+.modal {
+  text-align: left; }
+
+@media (max-width: 992px) {
+  .container {
+    width: 95%; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%; } }
+@media (max-width: 880px) {
+  .container {
+    width: 100%; } }
+
+/*# sourceMappingURL=main.css.map */

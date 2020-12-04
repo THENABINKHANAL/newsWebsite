@@ -1,0 +1,109 @@
+<div class="nav-bar">
+        <nav class="header">
+                <div class="header-box">
+                    <a class="logo-link" href="#home">
+                        <img class="logo" src="/assets/img/SVG/lict_logo.svg"/>
+                    </a>
+        
+                    <div class="nav-bar-box box-mobile">
+                        <div class="title-login">
+                            <div class="head-title">
+                                Laboratory for ICT Research and Development
+                            </div>
+        
+                            <div class="login">
+                                <a href="/login">Login</a>
+                            </div>
+                        </div>
+        
+                        <div class="title-mobile">
+                            LICT Lab
+                        </div>
+      
+                        <div class="nav-bar nav-bar-mob">
+                            <ul>
+                                @if(count($all)>0)
+                                    @foreach ($all as $item=>$key)
+                                    @if($item=="location")
+                                        @continue;
+                                    @endif
+                                <li  class="dropdown-link dropdown-link-mob">
+                                        <a  href="#"><span>{{$item}} <i class="caret"></i></span> </a>
+                                        @if(count($all[$item])/2>0.5)
+                                        <div class="dropdown-menu" >
+                                                @foreach ($all[$item] as $subitemitem=>$key)
+                                                @if($subitemitem=="location")
+                                                    @continue;
+                                                @endif
+                                                <a href="#">{{$subitemitem}}</a>
+                                                @endforeach
+                                        </div>
+                                        @endif
+                                </li>
+                                @endforeach
+                                @endif
+                            </ul>
+                        </div>
+        
+                        <div class="ham-menu">
+                            <div class="container" onclick="myFunction(this)">
+                                <div class="bar1"></div>
+                                <div class="bar2"></div>
+                                <div class="bar3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            <div class="image-info">
+                <div class="research-article">
+        
+                </div>
+            </div>
+
+        
+        
+        
+            <footer id="footer">
+        
+                <div id="links">
+                    <ul id="internal-links">
+                        <li  >
+                            <a  href="#"><span>About</span> </a>  
+                        </li>
+                        <li >
+                            <a  href="#"><span>Personnel</span></a>
+                        </li>
+                        <li >
+                            <a href="#"><span>Research</span></a> 
+                        </li>
+                        <li >
+                            <a  href="#"><span>Collaborations</span></a>
+                        </li>
+                        <li >
+                            <a href="#"><span>News</span></a>
+                        </li>
+                        <li >
+                            <a href="#"><span>Vacancy</span></a>
+                        </li>
+                        <li >
+                            <a href="#"><span>Contacts</span></a>
+                        </li>
+                        <li >
+                            <a href="../login">Login</a>
+                        </li>
+                    </ul>
+                    <div id="external-links">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div>
+                    
+                </div>
+                <h4>&#169; Team One 2019 - All rights reserved.</h4>
+            </footer>
+        
+            <script src="js/jquery.min.js"></script>
+            <script src="js/main.js"></script>
+    

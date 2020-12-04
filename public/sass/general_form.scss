@@ -1,0 +1,179 @@
+$nav-color:rgb(43, 3, 66);
+$heading-text:rgb(168, 168, 165);
+$text-color:white;
+$login-form-color:white;
+
+.login-form-content {
+    display: flex; /* Hidden by default */
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    padding: 20px;
+
+
+    .modal-content {
+        background-color: $login-form-color;
+        color:$nav-color;
+        margin: 0% auto 5% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: none;
+        border-radius: 5px;
+        width: 35%;
+        min-width: 300px; /* Could be more or less, depending on screen size */
+        text-align: center;
+        box-shadow:0 6px 12px 0 rgba(155, 144, 144, 0.8);
+
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+            }
+
+
+
+        .container {
+            margin-top:40px;
+            padding: 10%;
+
+
+            .elem{
+                padding:10px 0px;
+                text-align: left;
+                
+                input[type=text], input[type=password] {
+                    width: 100%;
+                    display: inline-block;
+                    border: 2px solid lightblue;
+                    box-sizing: border-box;
+                    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.3); 
+                    border-radius: 5px;
+                    height: 40px;
+                    font-size: 18px;
+                    }
+
+            }
+
+            }
+
+
+        }
+
+
+
+    }
+
+
+
+    /* Full-width input fields */
+        
+
+        label[for=psw], label[for=uname],  label[for=check]{
+            width:100%;
+            font-size: 16px;
+            font-weight: 400;
+            margin-top:20px;
+        }
+
+
+
+        /* Set a style for all buttons */
+        button {
+        background-color: $nav-color;
+        width:100px;
+        color: white;
+        padding: 10px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 3px;
+        font-size: 18px;
+        cursor: pointer;
+        }
+
+        button:hover {
+        opacity: 0.8;
+        }
+
+        
+        
+
+        
+
+        
+
+        span.psw {
+        float: right;
+        padding-top: 16px;
+        }
+
+        /* The Modal (background) */
+        
+
+        /* Modal Content/Box */
+        
+
+        /* The Close Button (x) */
+        .close {
+        position: absolute;
+        right: 25px;
+        top: 0;
+        color: $nav-color;
+        font-size: 35px;
+        font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+        color: rgb(224, 59, 9);
+        cursor: pointer;
+        }
+
+        /* Add Zoom Animation */
+        .animate {
+        -webkit-animation: animatezoom 0.6s;
+        animation: animatezoom 0.6s
+        }
+
+        #forgot{
+            margin-top:10px;
+            display: block;
+            width: 100%;
+            padding:10px;
+            font-size:16px;
+            color:$nav-color;
+            
+        }
+
+        #forgot:hover{
+            color:red;
+        }
+
+        @-webkit-keyframes animatezoom {
+        from {-webkit-transform: scale(0)} 
+        to {-webkit-transform: scale(1)}
+        }
+        
+        @keyframes animatezoom {
+        from {transform: scale(0)} 
+        to {transform: scale(1)}
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            .modal-content{
+                width:95%;
+            }
+            .container{
+
+                width:90%;
+            }
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                width: 100%;
+            }
+        }

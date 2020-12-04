@@ -1,0 +1,70 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+.nav-bar{
+  display: flex;
+  flex-basis: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: white;
+  .nav-bar-item{
+    border-radius: 5px;
+    padding:20px;
+    cursor: pointer;
+    position: relative;
+    &:hover{
+      background-color: rgba(0,0,0,.13);
+      .nav-bar-dropdowm{
+        display: block;
+      }
+    }
+    .nav-bar-dropdowm{
+      display: none;
+      padding: 5px;
+      z-index: 10;
+      position: absolute;
+      width: 120%;
+      left: -2.5px;
+      background-color: white;
+      top:100%;
+      box-shadow: 5px 5px rgba(0,0,0,.13);
+      border-radius: 5px;
+      .nav-bar-dropdown-item{
+        padding: 5px;
+        position: relative;
+        &:hover{
+        background-color: rgba(0,0,0,.13);
+        .nav-bar-dropdownside{
+          display: block;
+        }
+      }
+    }
+    .nav-bar-dropdownside{
+      display: none;
+      z-index: 20;
+      padding: 5px;
+      position: absolute;
+      background-color: white;
+      width: 110%;
+      left: 90%;
+      top:5px;
+      box-shadow: 5px 5px rgba(0,0,0,.13);
+      border-radius: 5px;
+    }
+    .nav-bar-dropdownside-item{
+      padding: 5px;
+      &:hover{
+        background-color: rgba(0,0,0,.13);
+      }
+    }
+
+    }
+  }
+}

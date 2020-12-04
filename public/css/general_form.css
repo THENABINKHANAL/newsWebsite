@@ -1,0 +1,107 @@
+.login-form-content {
+  display: flex;
+  /* Hidden by default */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  padding: 20px; }
+  .login-form-content .modal-content {
+    background-color: white;
+    color: #2b0342;
+    margin: 0% auto 5% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: none;
+    border-radius: 5px;
+    width: 35%;
+    min-width: 300px;
+    /* Could be more or less, depending on screen size */
+    text-align: center;
+    box-shadow: 0 6px 12px 0 rgba(155, 144, 144, 0.8); }
+    .login-form-content .modal-content .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+      position: relative; }
+    .login-form-content .modal-content .container {
+      margin-top: 40px;
+      padding: 10%; }
+      .login-form-content .modal-content .container .elem {
+        padding: 10px 0px;
+        text-align: left; }
+
+
+/* Full-width input fields */
+label[for=psw], label[for=uname], label[for=check] {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px; }
+
+
+span.psw {
+  float: right;
+  padding-top: 16px; }
+
+/* The Modal (background) */
+/* Modal Content/Box */
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #2b0342;
+  font-size: 35px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #e03b09;
+  cursor: pointer; }
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s; }
+
+#forgot {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #2b0342; }
+
+#forgot:hover {
+  color: red; }
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+@keyframes animatezoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .modal-content {
+    width: 95%; }
+
+  .container {
+    width: 90%; }
+
+  span.psw {
+    display: block;
+    float: none; }
+
+  .cancelbtn {
+    width: 100%; } }
+
+/*# sourceMappingURL=general_form.css.map */

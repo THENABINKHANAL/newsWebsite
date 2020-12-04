@@ -1,0 +1,50 @@
+.page-title {
+  display: block;
+  text-align: center;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3); }
+
+.page-title p {
+  margin: 5px;
+  padding: 20px;
+  color: black;
+  font-size: 400%;
+  font-family: sans-serif; }
+
+.message-page {
+  width: 100%;
+  height: 100%;
+  background-color: lavender; }
+
+.message-content {
+  padding: 10px;
+  text-align: center;
+  height: auto; }
+
+.person-img {
+  padding-bottom: 20px; }
+
+.person-info {
+  text-align: center; }
+
+.person-info h2 {
+  font-size: 20px;
+  font-weight: 500; }
+
+.person-info h3 {
+  font-size: 18px;
+  font-weight: 400; }
+
+.message-text {
+  margin: 10px 20%; }
+
+.message-text p {
+  text-indent: 5%;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: justify;
+  font-size: 18px;
+  font-family: cambria; }
+
+/*# sourceMappingURL=message.css.map */

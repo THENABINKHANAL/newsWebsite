@@ -1,0 +1,150 @@
+.whole {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 41, 109, 0.2); }
+
+.vacancies {
+  background-color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 20px 40px; }
+  .vacancies .ind-vacancy {
+    padding: 10px 0px;
+    margin-bottom: 30px; }
+    .vacancies .ind-vacancy .title h1::after {
+      content: '';
+      display: block;
+      height: 1px;
+      background-color: black;
+      margin-top: 2px; }
+
+.responsibility, .requirement {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  .responsibility li, .requirement li {
+    font-size: 17px; }
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  /* Black w/ opacity */
+  padding-top: 0px; }
+  .modal .modal-content {
+    background-color: white;
+    margin: 2.5% auto 2.5% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: none;
+    border-radius: 10px;
+    width: 35%;
+    max-width: 600px;
+    /* Could be more or less, depending on screen size */
+    text-align: center; }
+    .modal .modal-content .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+      position: relative; }
+    .modal .modal-content .container {
+      margin-top: 40px;
+      padding: 10%; }
+      .modal .modal-content .container .elem {
+        padding: 10px 0px;
+        text-align: left; }
+        .modal .modal-content .container .elem input[type=text], .modal .modal-content .container .elem input[type=password] {
+          width: 100%;
+          display: inline-block;
+          box-sizing: border-box;
+          }
+
+/* Full-width input fields */
+label[for=psw], label[for=uname], label[for=check] {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 20px; }
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px; }
+
+/* The Modal (background) */
+/* Modal Content/Box */
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #2b0342;
+  font-size: 35px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #e03b09;
+  cursor: pointer; }
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s; }
+
+#forgot {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: #2b0342; }
+
+#forgot:hover {
+  color: red; }
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+@keyframes animatezoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .modal-content {
+    width: 95%; }
+
+  .container {
+    width: 90%; }
+
+  span.psw {
+    display: block;
+    float: none; }
+
+  .cancelbtn {
+    width: 100%; } }
+@media screen and (max-width: 800px) {
+  .vacancies {
+    margin: 0px;
+    padding: 20px; } }
+
+/*# sourceMappingURL=vacancy.css.map */

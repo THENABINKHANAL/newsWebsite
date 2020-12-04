@@ -1,0 +1,185 @@
+body {
+  background-color: #f6bd95;
+  text-align: center; }
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 50px;
+  background-color: #2b0342;
+  box-shadow: 0 4px 10px 20px rgba(155, 144, 144, 0.8); }
+
+.left-nav-bar {
+  display: flex;
+  float: left;
+  margin-left: 20px; }
+  .left-nav-bar ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px; }
+    .left-nav-bar ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0 10px; }
+      .left-nav-bar ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        padding: 0 10px;
+        height: 100%; }
+      .left-nav-bar ul li a:hover {
+        background-color: #52067e; }
+      .left-nav-bar ul li #login {
+        display: none; }
+
+.right-nav-bar {
+  display: flex;
+  float: right;
+  margin-right: 20px; }
+  .right-nav-bar ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px; }
+    .right-nav-bar ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0px 10px; }
+      .right-nav-bar ul li a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        padding: 0px 10px;
+        height: 100%; }
+      .right-nav-bar ul li #login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        height: 100%;
+        padding: 0px 10px;
+        cursor: pointer; }
+      .right-nav-bar ul li a:hover, .right-nav-bar ul li #login:hover {
+        background-color: #52067e; }
+
+#mob-nav-bar-top {
+  display: none;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px; }
+  #mob-nav-bar-top h2 {
+    margin: 0px;
+    padding: 0px; }
+
+#mob-nav-bar-bottom {
+  display: block;
+  width: 100%;
+  background-color: #2b0342;
+  margin: 0px;
+  padding: 0px; }
+  #mob-nav-bar-bottom ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    padding: 0px; }
+    #mob-nav-bar-bottom ul li {
+      list-style-type: none;
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+      border-top: 1px solid #f6bd95; }
+      #mob-nav-bar-bottom ul li a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px; }
+      #mob-nav-bar-bottom ul li #login {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        cursor: pointer; }
+      #mob-nav-bar-bottom ul li a:hover, #mob-nav-bar-bottom ul li #login:hover {
+        background-color: #52067e; }
+
+.ham-menu {
+  display: block; }
+
+.container {
+  display: inline-block;
+  cursor: pointer; }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s; }
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px); }
+
+.mob-title {
+  display: block;
+  color: white; }
+
+@media (max-width: 880px) {
+  .nav-bar {
+    flex-wrap: wrap; }
+
+  .left-nav-bar {
+    display: none; }
+
+  .right-nav-bar {
+    display: none; }
+
+  #mob-nav-bar-top {
+    display: flex; }
+
+  .left-nav-bar > ul > li {
+    display: block; }
+
+  .ham-menu {
+    margin-right: 20px;
+    padding-top: 5px; }
+
+  #mob-nav-bar-top h2 {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px; } }
+.main-page {
+  background-color: #f6bd95;
+  text-align: center; }
+
+.footer {
+  min-height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #2b0342;
+  color: white; }
+  .footer p {
+    padding: 5px; }
+
+/*# sourceMappingURL=admin_header.css.map */

@@ -1,0 +1,164 @@
+.mission {
+  font-size: 20px;
+  padding: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  color: black;
+  background: rgba(5, 133, 172, 0.8); }
+  .mission h2 {
+    color: white; }
+  .mission ul {
+    text-align: left;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    list-style-type: square;
+    margin-left: 20px; }
+    .mission ul li {
+      padding: 5px; }
+
+.image-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.news-bar {
+  margin-top: 20px;
+  width: 25%;
+  min-width: 250px; }
+
+.new-projects {
+  margin-top: 200px;
+  width: 30%;
+  min-width: 350px; }
+
+.ind-article {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  color: white; }
+
+.ind-article:hover {
+  color: orange;
+  box-shadow: 0 20px 38px 0 rgba(0, 0, 0, 0.5); }
+  .ind-article:hover .top-bar {
+    background: black; }
+
+.top-bar {
+  background-color: #696969;
+  height: 5px;
+  width: 100%;
+  opacity: 1; }
+
+.image-box {
+  margin-top: 5px;
+  padding: 0px;
+  width: 100%;
+  height: auto; }
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  padding-top: 0px; }
+
+.news-box {
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
+
+.news-box p {
+  padding: 5px 20px;
+  font-family: sans-serif;
+  font-size: 20px; }
+
+.ind-project {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  color: white; }
+
+.ind-project:hover {
+  transition-delay: 100ms;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.8);
+  color: orange; }
+  .ind-project:hover .top-bar {
+    background-color: black; }
+
+.top-bar {
+  background-color: orangered;
+  height: 5px;
+  width: 100%;
+  opacity: 1; }
+
+.project-container {
+  height: 85%; }
+
+.name {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 3px;
+  margin-top: 1px; }
+
+.project-title {
+  border-bottom: 2px solid #dce1e1;
+  padding: 5px;
+  margin-top: 2px; }
+
+.project-title:hover {
+  border-bottom: 1px solid #1dc0c0;
+  padding: 5px; }
+
+.project-title a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #008cff;
+  padding-bottom: 5px;
+  text-decoration: none;
+  margin-top: 0px; }
+
+.project-title a:hover {
+  color: #1dc0c0; }
+
+.description {
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
+
+.description p {
+  margin: 0px;
+  margin-top: 0px;
+  padding: 10px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px; }
+
+.people-involved {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  border-top: 2px solid #dce1e1;
+  margin-bottom: 0px; }
+
+.people-involved img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px; }
+
+@media screen and (max-width: 600px) {
+  .news-bar {
+    width: 90%;
+    margin: 0px auto; }
+
+  .new-projects {
+    width: 90%;
+    margin: 0px auto; } }
+
+/*# sourceMappingURL=index.css.map */
